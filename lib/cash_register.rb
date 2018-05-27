@@ -13,6 +13,8 @@ class CashRegister
     counter = 0 
     while counter < amount_bought 
       @items << title 
+      counter += 1 
+    end
     @total = @total + price * amount_bought
   end 
   
