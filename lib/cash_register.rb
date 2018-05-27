@@ -14,6 +14,7 @@ class CashRegister
       while counter < amount_bought 
         @items << title 
         counter += 1 
+      end
     else 
       @items << title 
     end
