@@ -11,6 +11,7 @@ class CashRegister
     @price = price
     if amount_bought > 1 
     counter = 0 
+    while counter 
     @total = @total + price * amount_bought
   end 
   
