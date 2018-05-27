@@ -12,7 +12,7 @@ class CashRegister
     if amount_bought > 1 
     counter = 0 
     while counter < amount_bought 
-    
+      @items << title 
     @total = @total + price * amount_bought
   end 
   
